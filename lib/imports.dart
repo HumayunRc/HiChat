@@ -16,4 +16,4 @@ export 'package:jiffy/jiffy.dart';
 export 'models/messageTile_data.dart';
 export 'screens/home_screen.dart';
 export 'package:logger/logger.dart';
-import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
+export 'package:hichat/app.dart';

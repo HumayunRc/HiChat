@@ -1,19 +1,19 @@
-import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
+// import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
 import 'imports.dart';
 
 void main() {
-  final client = StreamChatClient(streamKey);
+  // final client = StreamChatClient(streamKey);
   runApp(
     MyApp(
-      client: client,
-    ),
+        // client: client,
+        ),
   );
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key, required this.client}) : super(key: key);
+  // const MyApp({Key? key, required this.client}) : super(key: key);
 
-  final StreamChatClient client;
+  // final StreamChatClient client;
 
   @override
   Widget build(BuildContext context) {
